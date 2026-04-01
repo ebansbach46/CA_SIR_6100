@@ -1,8 +1,24 @@
-# Run an agent-based SIR model
-# P. Alexander Burnham
-# 25 March, 2026
+---
+title: "Homework 11: Structured Programming and CA Models"
+format: html
+---
+
+Homework 11: Structured Programming and CA Models
+
+# Repository structure
+in my repository, I created a folder called "functions", where my 4 function files live (mouse.py, update.py, draw.py, init.py). In the repository I have my driver script there as well.
+
+https://github.com/ebansbach46/CA_SIR_6100.git
 
 
+
+# Driver Code
+## Run an agent-based SIR model
+## P. Alexander Burnham
+## 25 March, 2026
+
+
+```{python}
 # import libraries
 import pygame
 import numpy as np
@@ -145,3 +161,4 @@ def main(dimx, dimy, cellsize, S = S, I = I, R = R, beta = beta, gamma = gamma, 
 # run main function here...
 if __name__ == "__main__":
     main(100, 70, 8)
+```
